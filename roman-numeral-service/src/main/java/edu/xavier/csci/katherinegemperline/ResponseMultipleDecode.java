@@ -1,9 +1,11 @@
 package edu.xavier.csci.katherinegemperline;
 
+import java.util.List;
+
 public class ResponseMultipleDecode {
 
-    private Integer number;
-    public Integer getNumber() {return number; }
-    public void setNumber(Integer num) { number = num; }
+    private List<Integer> number;
+    public List<Integer> getNumber() {return number; }
+    public void setNumbers(List<Integer> x) { number = x; }
 
 }
